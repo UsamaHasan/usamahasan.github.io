@@ -2,6 +2,7 @@
 layout: post
 title: A brief surevy of deep learning based 3D object detection algorithm for autonomous driving scenarios !
 ---
+
 ## 1. Introduction:
   With the rise of Artificial Intelligence system, the race to convert conventional system into automated system is on rise too. One such domain is automated transportation system powered by autonomous vehicles. More than forty companies have joined the race to manufacture and deploy autonomous vehicles on road [1]. This surge was caused by the availability of relatively cheaper sensor LIDARS, rise of deep learning and availability of large public dataset.
     The complexity of task begins as 2D dimensional data is not sufficient enough to properly detect and localize object on ground plane. 3D data acquired by sensors such as LIDAR (Light Detection and Ranging), RGB-D sensors such as Microsoft Kinect, Intel RealSense etc. provides us ample amount of information about the surrounding objects, such as there scale, distance measurement and geometric information. Both the technologies to acquire 3D were lately used to construct model to perform the object detection and tracking in autonomous vehicles. Point clouds obtained from LIDAR are irregular continuous representation of geometrical information in 3d space. Depth images obtained from RGB-D sensor contains the three color channel and depth information corresponding to each cell, making it spatial data.  
