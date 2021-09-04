@@ -1,13 +1,18 @@
 ---
-layout: page
-title: "Usama Hasan"
-permalink: https://github.com/UsamaHasan/usamahasan.github.io
-
+layout: default
 ---
-# About page
 
-This page tells you a little bit about me.
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-I am currently working in DeepGears, Before that, I was working in NCAI, PUCIT Lahore as Research Assistant. I received my bachelor’s degree in Computer Science from UMT, Lahore
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-My research interests are in computer vision and deep learning,especially in 3D scene understanding and object detection in autonomous driving scenarios. 
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
