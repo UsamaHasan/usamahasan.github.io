@@ -18,3 +18,6 @@ My research interests are in computer vision and deep learning,especially in 3D 
 AEPI: insights into the potential of deep representations for human identification through outer ear images
 U Hasan, W Hussain, N Rasool
 Multimedia Tools and Applications 81 (8), 10427-10443
+
+CloudUP - Upsampling Vibrant Color Point Clouds using Multi-Scale Spatial Attention
+(Accepted IEEE ACESS)
